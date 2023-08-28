@@ -2,7 +2,7 @@ function DarkModeToggle({ darkMode, onDarkModeChange }) {
   return (
     <div>
       <button className="btn-dark-mode" onClick={onDarkModeChange}>
-        {darkMode ? "🌝" : "🌚"}
+        {darkMode ? "🌚" : "🌝"}
       </button>
     </div>
   );
